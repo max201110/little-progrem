@@ -1,11 +1,42 @@
 # Little Program
 
-A collection of personal programming practice projects.
+个人编程练习与小型实验合集。这里记录从网页交互、算法练习到工具脚本的可运行示例，重点是保持每个练习短小、可读、可复现。
 
-## Projects
-| Project | Description |
-|---------|-------------|
-| (To be added) | ... |
+## 目录约定
+
+每个练习建议独立放在一个子文件夹中，并包含：
+
+```text
+project-name/
+├── README.md       # 目标、运行方式、效果说明
+├── src/            # 源代码
+└── tests/          # 可选测试
+```
+
+## 运行约定
+
+不同练习的依赖可能不同，请优先阅读子目录 README。纯 HTML 项目可以直接打开入口文件，Python 项目建议使用虚拟环境：
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+## 练习清单
+
+目前仓库作为练习归档入口，后续新增项目会在此表登记：
+
+| 项目 | 技术 | 状态 |
+| --- | --- | --- |
+| 待整理 | — | 计划中 |
+
+## 提交规范
+
+- 一个练习一个目录，避免把临时文件放在根目录
+- README 写清楚输入、输出和运行命令
+- 不提交 `.venv`、缓存、编辑器配置和密钥
+- 优先提供最小可运行示例，再逐步迭代
 
 ## License
+
 MIT License
