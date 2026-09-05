@@ -28,7 +28,7 @@ python -m venv .venv
 
 | 项目 | 技术 | 状态 |
 | --- | --- | --- |
-| 待整理 | — | 计划中 |
+| `number-guessing` | Python | 可运行 |`n| `todo-cli` | Python | 可运行 |
 
 ## 提交规范
 
@@ -40,3 +40,4 @@ python -m venv .venv
 ## License
 
 MIT License
+
